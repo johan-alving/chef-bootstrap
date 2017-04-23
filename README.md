@@ -36,7 +36,7 @@ Example:
         "host": "172.23.58.100", 
         "node_name": "node01", 
         "user": "user", 
-        "password": 1234"",
+        "password": "1234",
         "cookbook": "nginx",
         "protocol": "ssh"
     },
@@ -44,7 +44,7 @@ Example:
         "host": "172.23.58.101", 
         "node_name": "node02", 
         "user": "user", 
-        "password": 1234"",
+        "password": "1234",
         "cookbook": "nginx",
         "protocol": "ssh"
     }
