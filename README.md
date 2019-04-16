@@ -1,5 +1,5 @@
 # Bootstrap one or more Chef nodes
-This Python script will bootstrap one or more Chef nodes defined in a JSON. If multiple nodes are defined, they will be bootstrapped in parallel. Each bootstrap process writes its output to a log file. After the script is finished, it will report successful and failed bootstraps. Log files are placed in the current working directory.
+This Python script will bootstrap one or more Chef nodes defined in a template. If multiple nodes are defined, they will be bootstrapped in parallel. Each bootstrap process prints output to a log file. After the script is finished, it will report successful and failed bootstraps. Log files are placed in the current working directory.
 
 There are 3 constants that needs to be defined in the script:
 
